@@ -1,0 +1,487 @@
+DEBUG:root:THIS IS THE PATH : /home/ottersome/Project
+INFO:root:Initializing Screens...
+DEBUG:root:We are here niggas
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.spotify.com
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/site-packages/googleapiclient/discovery_cache/__init__.py", line 36, in autodetect
+    from google.appengine.api import memcache
+ModuleNotFoundError: No module named 'google'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client.contrib.locked_file'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client.locked_file'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/site-packages/googleapiclient/discovery_cache/__init__.py", line 41, in autodetect
+    from . import file_cache
+  File "/usr/lib/python3.6/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    'file_cache is unavailable when using oauth2client >= 4.0.0')
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/gmail/v1/rest
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/gmail/v1/users/luisgarcia26284%40gmail.com/messages?q=in%3Ainbox+is%3Aunread+-category%3A%28promotions+OR+social%29&maxResults=8&alt=json
+INFO:oauth2client.transport:Refreshing due to a 401 (attempt 1/2)
+INFO:oauth2client.client:Refreshing access_token
+DEBUG:urllib3.connectionpool:https://api.spotify.com:443 "GET /v1/me/top/artists?time_range=short_term&limit=5&offset=0 HTTP/1.1" 200 1274
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.spotify.com
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/gmail/v1/users/luisgarcia26284%40gmail.com/messages/161057bc81f76944?format=full&alt=json
+INFO:root:Saving in cache with pos : 1
+DEBUG:root:NUM YO : 0
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/gmail/v1/users/luisgarcia26284%40gmail.com/messages/1610436dc36947ec?format=full&alt=json
+INFO:root:Saving in cache with pos : 1
+DEBUG:root:NUM YO : 1
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/gmail/v1/users/luisgarcia26284%40gmail.com/messages/16103d2bd47a4a7a?format=full&alt=json
+INFO:root:Saving in cache with pos : 1
+DEBUG:root:NUM YO : 2
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/gmail/v1/users/luisgarcia26284%40gmail.com/messages/16102d2f0dae09b0?format=full&alt=json
+DEBUG:urllib3.connectionpool:https://api.spotify.com:443 "GET /v1/recommendations?seed_artists=1Mxqyy3pSjf8kZZL4QVxS0,0fTav4sBLmYOAzKuJw0grL,2wY79sveU1sp5g7SokKOiI,1uiEZYehlNivdK3iQyAbye,4Lm0pUvmisUHMdoky5ch2I&limit=10 HTTP/1.1" 200 4047
+DEBUG:root:ADDING MESSAGE
+DEBUG:root:NUM YO : 0
+DEBUG:root:ADDING MESSAGE
+DEBUG:root:NUM YO : 1
+DEBUG:root:ADDING MESSAGE
+DEBUG:root:NUM YO : 2
+DEBUG:root:ADDING MESSAGE
+DEBUG:root:NUM YO : 3
+DEBUG:root:ADDING MESSAGE
+DEBUG:root:NUM YO : 4
+DEBUG:root:ADDING MESSAGE
+DEBUG:root:NUM YO : 5
+DEBUG:root:ADDING MESSAGE
+DEBUG:root:NUM YO : 6
+DEBUG:root:ADDING MESSAGE
+DEBUG:root:NUM YO : 7
+DEBUG:root:ADDING MESSAGE
+DEBUG:root:NUM YO : 8
+DEBUG:root:ADDING MESSAGE
+DEBUG:root:NUM YO : 9
+ERROR:root:ADD MESSAGE ERROR : addwstr() returned ERR
+DEBUG:root:Exception : 29/29__3/77__0/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 29/29__4/77__1/75
+INFO:root:Saving in cache with pos : 1
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 29/29__5/77__2/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 29/29__6/77__3/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:NUM YO : 3
+DEBUG:root:Exception : 29/29__7/77__4/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 29/29__8/77__5/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 29/29__9/77__6/75
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/gmail/v1/users/luisgarcia26284%40gmail.com/messages/161006f283d9d14a?format=full&alt=json
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 29/29__10/77__7/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 29/29__11/77__8/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 29/29__12/77__9/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 29/29__13/77__10/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 29/29__14/77__11/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 29/29__15/77__12/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 29/29__16/77__13/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 29/29__17/77__14/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 29/29__18/77__15/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 29/29__19/77__16/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 29/29__20/77__17/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 29/29__21/77__18/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 29/29__22/77__19/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 29/29__23/77__20/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__3/77__22/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__4/77__23/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__5/77__24/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__6/77__25/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__7/77__26/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__8/77__27/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__9/77__28/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__10/77__29/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__11/77__30/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__12/77__31/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__13/77__32/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__14/77__33/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__15/77__34/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__16/77__35/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__17/77__36/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__18/77__37/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__19/77__38/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__20/77__39/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__21/77__40/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__22/77__41/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__23/77__42/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__24/77__43/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__25/77__44/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__26/77__45/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__27/77__46/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__28/77__47/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__29/77__48/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__30/77__49/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__31/77__50/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__32/77__51/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__33/77__52/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__34/77__53/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__35/77__54/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__36/77__55/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__37/77__56/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__38/77__57/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__39/77__58/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__40/77__59/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__41/77__60/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__42/77__61/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__43/77__62/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__44/77__63/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__45/77__64/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__46/77__65/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__47/77__66/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__48/77__67/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__49/77__68/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__50/77__69/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__51/77__70/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__52/77__71/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__53/77__72/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__54/77__73/75
+ERROR:root:ADDME
+add_wch() returned ERR
+DEBUG:root:Exception : 30/29__55/77__74/75
+ERROR:root:ADDME
+add_wch() returned ERR
+INFO:root:Saving in cache with pos : 3
+INFO:root:Retrieving tweets about artists...
+INFO:root:Retrieving news about artists...
+INFO:root:Checking Tweets for : Frank Sinatra
+INFO:root:Tweet entries : 0/7
+DEBUG:root:FINAL FURL : https://twitter.com/search?q=Frank+Sinatra&src=typd
+INFO:root:Saving in cache with pos : 1
+DEBUG:root:NUM YO : 4
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/gmail/v1/users/luisgarcia26284%40gmail.com/messages/160f787834419411?format=full&alt=json
+INFO:root:Saving in cache with pos : 1
+DEBUG:root:NUM YO : 5
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/gmail/v1/users/luisgarcia26284%40gmail.com/messages/160f60cee00a8ea3?format=full&alt=json
+INFO:root:Saving in cache with pos : 1
+DEBUG:root:NUM YO : 6
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/gmail/v1/users/luisgarcia26284%40gmail.com/messages/160f165a4de0180f?format=full&alt=json
+INFO:root:Saving in cache with pos : 1
+DEBUG:root:NUM YO : 7
+INFO:root:BUTTON PRESSED a
+INFO:root:Tuplo retrieved : 
+DEBUG:root:NUM YO : 0
+INFO:root:Saving in cache with pos : 4
+INFO:root:Checking Tweets for : Mac Ayres
+INFO:root:Tweet entries : 1/7
+DEBUG:root:FINAL FURL : https://twitter.com/search?q=Mac+Ayres&src=typd
+INFO:root:Loading link
+INFO:root:OPENING IN BROWSER : https://mail.google.com/mail/u/0/#inbox/16103d2bd47a4a7a
+INFO:root:Saving in cache with pos : 2
+DEBUG:root:NEWSO : 
+Artist : Frank Sinatra
+News : 
+Singer Frank Sinatra on stage during his 1974 tour of Australia. Having braved a not-so-warm welcome in Sydney, he headed to Melbourne for his first shows and was pursued by male and female reporters itching for an interview. When he took the stage that night at Festival Hall for his first Australia show, ...
+DEBUG:root:NUM YO : 0
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/site-packages/googleapiclient/discovery_cache/__init__.py", line 36, in autodetect
+    from google.appengine.api import memcache
+ModuleNotFoundError: No module named 'google'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client.contrib.locked_file'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client.locked_file'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/site-packages/googleapiclient/discovery_cache/__init__.py", line 41, in autodetect
+    from . import file_cache
+  File "/usr/lib/python3.6/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    'file_cache is unavailable when using oauth2client >= 4.0.0')
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/gmail/v1/rest
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/gmail/v1/users/luisgarcia26284%40gmail.com/messages?q=in%3Ainbox+is%3Aunread+-category%3A%28promotions+OR+social%29&maxResults=8&alt=json
+INFO:oauth2client.transport:Refreshing due to a 401 (attempt 1/2)
+INFO:oauth2client.client:Refreshing access_token
+INFO:root:Saving in cache with pos : 2
+DEBUG:root:NEWSO : 
+Artist : Mac Ayres
+News : 
+Unpretentious blue-eyed soul centered around mom's minivan, Drive Slow is the debut from 20-year-old New York native Mac Ayres, who grew up on Stevie Wonder in a family that wasn't musically inclined. Seems like he lucked out and hogged all the talent. Songs like “The Devil's in the Details” and “Slow ...
+DEBUG:root:NUM YO : 1
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/gmail/v1/users/luisgarcia26284%40gmail.com/messages/161057bc81f76944?format=full&alt=json
+INFO:root:Saving in cache with pos : 1
+DEBUG:root:NUM YO : 0
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/gmail/v1/users/luisgarcia26284%40gmail.com/messages/1610436dc36947ec?format=full&alt=json
+INFO:root:Saving in cache with pos : 1
+DEBUG:root:NUM YO : 1
+INFO:root:Tuplo retrieved : 
+DEBUG:root:NUM YO : 1
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/gmail/v1/users/luisgarcia26284%40gmail.com/messages/16103d2bd47a4a7a?format=full&alt=json
+INFO:root:Saving in cache with pos : 4
+INFO:root:Checking Tweets for : Sam Smith
+INFO:root:Tweet entries : 2/7
+DEBUG:root:FINAL FURL : https://twitter.com/search?q=Sam+Smith&src=typd
+INFO:root:Saving in cache with pos : 1
+DEBUG:root:NUM YO : 2
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/gmail/v1/users/luisgarcia26284%40gmail.com/messages/16102d2f0dae09b0?format=full&alt=json
+INFO:root:Saving in cache with pos : 2
+DEBUG:root:NEWSO : 
+Artist : Sam Smith
+News : 
+Kendrick Lamar, Sam Smith and U2 will perform at the 60th Annual Grammy Awards at New York's Madison Square Garden on Jan. 28, Billboard has learned. Lamar, who is up for seven awards including album of the year, will open the show, according to sources. Additionally, 2018 President's Merit ...
+DEBUG:root:NUM YO : 2
+INFO:root:Saving in cache with pos : 1
+DEBUG:root:NUM YO : 3
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/gmail/v1/users/luisgarcia26284%40gmail.com/messages/161006f283d9d14a?format=full&alt=json
+INFO:root:Saving in cache with pos : 1
+DEBUG:root:NUM YO : 4
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/gmail/v1/users/luisgarcia26284%40gmail.com/messages/160f787834419411?format=full&alt=json
+INFO:root:Saving in cache with pos : 2
+DEBUG:root:NEWSO : 
+Artist : Tom Misch
+News : 
+The prodigious guitar solos from south Londoner Mansur Brown on second track Potential a particular highlight. Barney Artist – who records all his music at the studio – has been especially important to getting the studio off the ground, Rick said. “He is the reason we work with Tom Misch, Jordan Rakei and ...
+DEBUG:root:NUM YO : 3
+INFO:root:Saving in cache with pos : 1
+DEBUG:root:NUM YO : 5
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/gmail/v1/users/luisgarcia26284%40gmail.com/messages/160f60cee00a8ea3?format=full&alt=json
+INFO:root:Saving in cache with pos : 1
+DEBUG:root:NUM YO : 6
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/gmail/v1/users/luisgarcia26284%40gmail.com/messages/160f165a4de0180f?format=full&alt=json
+INFO:root:Saving in cache with pos : 1
+DEBUG:root:NUM YO : 7
+INFO:root:Tuplo retrieved : 
+DEBUG:root:NUM YO : 2
+INFO:root:Saving in cache with pos : 4
+INFO:root:Checking Tweets for : Tom Misch
+INFO:root:Tweet entries : 3/7
+INFO:root:BUTTON PRESSED s
+INFO:root:Saving in cache with pos : 2
+DEBUG:root:NEWSO : 
+Artist : Apocalyptica
+News : 
+APOCALYPTICA's Eicca Toppinen said this past summer that fans will have to wait until at least the end of 2018 before they hear the follow-up to the band's 2015 album, "Shadowmaker". Toppinen said: "We [are now] focus[ing] on this, touring-wise, this ['Plays Metallica By Four Cellos'] concept," he said.
+DEBUG:root:NUM YO : 4
+DEBUG:root:FINAL FURL : https://twitter.com/search?q=Tom+Misch&src=typd
+INFO:root:Loading link
+INFO:root:OPENING IN BROWSER : https://www.google.com.tw/url?q=https://www.billboard.com/articles/news/8094512/kendrick-lamar-sam-smith-u2-grammy-performers-exclusive&sa=U&ved=0ahUKEwiIo6WM2d_YAhUGKZQKHcxNAu4QqQIIEygAMAA&usg=AOvVaw3LY5JZyJejaAB6bqW_Vdec
+WARNING:googleapiclient.discovery_cache:file_cache is unavailable when using oauth2client >= 4.0.0
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/site-packages/googleapiclient/discovery_cache/__init__.py", line 36, in autodetect
+    from google.appengine.api import memcache
+ModuleNotFoundError: No module named 'google'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client.contrib.locked_file'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client.locked_file'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/site-packages/googleapiclient/discovery_cache/__init__.py", line 41, in autodetect
+    from . import file_cache
+  File "/usr/lib/python3.6/site-packages/googleapiclient/discovery_cache/file_cache.py", line 41, in <module>
+    'file_cache is unavailable when using oauth2client >= 4.0.0')
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/discovery/v1/apis/gmail/v1/rest
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/gmail/v1/users/luisgarcia26284%40gmail.com/messages?q=in%3Ainbox+is%3Aunread+-category%3A%28promotions+OR+social%29&maxResults=8&alt=json
+INFO:oauth2client.transport:Refreshing due to a 401 (attempt 1/2)
+INFO:oauth2client.client:Refreshing access_token
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/gmail/v1/users/luisgarcia26284%40gmail.com/messages/161057bc81f76944?format=full&alt=json
+INFO:root:Saving in cache with pos : 1
+DEBUG:root:NUM YO : 0
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/gmail/v1/users/luisgarcia26284%40gmail.com/messages/1610436dc36947ec?format=full&alt=json
+INFO:root:Tuplo retrieved : 
+DEBUG:root:NUM YO : 3
+INFO:root:Saving in cache with pos : 4
+INFO:root:Checking Tweets for : Apocalyptica
+INFO:root:Tweet entries : 4/7
+INFO:root:Saving in cache with pos : 1
+DEBUG:root:NUM YO : 1
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/gmail/v1/users/luisgarcia26284%40gmail.com/messages/16102d2f0dae09b0?format=full&alt=json
+INFO:root:Saving in cache with pos : 1
+DEBUG:root:NUM YO : 2
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/gmail/v1/users/luisgarcia26284%40gmail.com/messages/161006f283d9d14a?format=full&alt=json
+INFO:root:Saving in cache with pos : 1
+DEBUG:root:NUM YO : 3
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/gmail/v1/users/luisgarcia26284%40gmail.com/messages/160f787834419411?format=full&alt=json
+DEBUG:root:FINAL FURL : https://twitter.com/search?q=Apocalyptica&src=typd
+INFO:root:Saving in cache with pos : 1
+DEBUG:root:NUM YO : 4
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/gmail/v1/users/luisgarcia26284%40gmail.com/messages/160f60cee00a8ea3?format=full&alt=json
+INFO:root:Saving in cache with pos : 1
+DEBUG:root:NUM YO : 5
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/gmail/v1/users/luisgarcia26284%40gmail.com/messages/160f165a4de0180f?format=full&alt=json
+INFO:root:Saving in cache with pos : 1
+DEBUG:root:NUM YO : 6
+INFO:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/gmail/v1/users/luisgarcia26284%40gmail.com/messages/160f072ac083cd53?format=full&alt=json
+INFO:root:Saving in cache with pos : 1
+DEBUG:root:NUM YO : 7
+INFO:root:Tuplo retrieved : 
+DEBUG:root:NUM YO : 4
+INFO:root:Saving in cache with pos : 4
