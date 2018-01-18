@@ -58,7 +58,7 @@ class MainScreen:
                 except Exception as e:
                     logging.error("authorizeUser google cred exception : "+ str(e))
                     print("My apologies there was an error with the given code please try again")
-                    self.quito()
+                    quito()
         
         if self.spotifyToken == 0:
             spoti = SpotifyCredentials()
@@ -67,7 +67,7 @@ class MainScreen:
             except Exception as e:
                 logging.error("Spotify token error")
                 print("Sorry there was an error with your token please try again later")
-                self.quito()
+                quit()
     
         #making sure everything is in order
         if self.googlecredencialos != None and self.googlecredencialos != 0 and self.spotifyToken != None:
