@@ -58,11 +58,16 @@ class MainScreen:
                 except Exception as e:
                     logging.error("authorizeUser google cred exception : "+ str(e))
                     print("My apologies there was an error with the given code please try again")
-                    quito()
+                    self.quito()
         
         if self.spotifyToken == 0:
             spoti = SpotifyCredentials()
-            self.spotifyToken = spoti.getToken('abuklao','user-read-private user-read-email user-library-read user-top-read')
+            try:
+                self.spotifyToken = spoti.getToken('abuklao','user-read-private user-read-email user-library-read user-top-read')
+            except Exception as e:
+                logging.error("Spotify token error")
+                print("Sorry there was an error with your token please try again later")
+                self.quito()
     
         #making sure everything is in order
         if self.googlecredencialos != None and self.googlecredencialos != 0 and self.spotifyToken != None:
@@ -77,7 +82,7 @@ class MainScreen:
                 logging.error("AT WRAPPER : "+str(e))
         else:
             print("Sorry you dont meet the requirements to enter the application please try again\nExiting....")
-            quito()
+            self.quito()
     #
     def firstSetup(self,stdscr):
         #initializing curses with our preferences these functions start colors(in case we want to use colors) and make that if we type it wont me displayed in the terminal 
@@ -146,7 +151,7 @@ class MainScreen:
                 self.toggleBlink(window,1)
                 x = stdscr.getch()
                 if x == ord('q'):
-                    quito()
+                    self.quito()
                 '''elif x == ord('^['):
                     logging.info("ESCAPE PRESSED")'''
                 #TODO add escape to go back 
